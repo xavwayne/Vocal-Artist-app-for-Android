@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Vocal_Artist_app</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="songlist">
+        <item>Bad Blood</item>
+        <item>Blank Space</item>
+    </string-array>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_mail_list">MailList</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.xiaoyuw.vocal_artist_app.ui.FragmentWall"
+    android:background="@mipmap/bg" android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/taylor_1"
+        android:id="@+id/ivDisplay"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <HorizontalScrollView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:src="@mipmap/taylor_1"
+                android:id="@+id/ivT1"
+                android:padding="15dp"/>
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:src="@mipmap/taylor_2"
+                android:id="@+id/ivT2"
+                android:padding="15dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btSetWall"
+        android:text="Set Wall Paper"/>
+
+
+</LinearLayout>
